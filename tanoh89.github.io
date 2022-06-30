@@ -1,0 +1,4 @@
+- Redirections en HTTP
+La redirection d'URL est une technique pour donner à une page, un formulaire ou une application Web entière, plus d'une adresse. HTTP fournit un type particulier de réponses, les redirections HTTP, pour effectuer cette opération utilisée pour de nombreux objectifs : redirection temporaire pendant la maintenance du site, redirection permanente pour que les liens externes continuent de fonctionner après un changement d'architecture du site, pages de progression lors du téléchargement d'un fichier, etc.
+Principe
+En HTTP, une redirection est déclenchée par le serveur en envoyant des réponses spéciales à une requête : les redirections. Les redirections HTTP sont des réponses avec un code d'état de 3xx. Un navigateur, lorsqu'il reçoit une réponse de redirection, utilise la nouvelle URL fournie et la charge immédiatement : la plupart du temps, la redirection est transparente pour l'utilisateur, si ce n'est un petit impact de performance.
